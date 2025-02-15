@@ -8,7 +8,7 @@ if (function_exists('pg_connect')) {
     echo "La extensión pgsql NO está habilitada.";
 }
 // Cadena de conexión
-$conn_string = "postgres://neondb_owner:npg_wtCf0dbXFSy4@ep-morning-resonance-a2jg0as0-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require";
+$conn_string = "postgres://neondb_owner:npg_c1hkCa4mDKvQ@ep-shy-moon-a5whhs0z-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require";
 
 // Conectar a PostgreSQL
 $link = pg_connect($conn_string);
